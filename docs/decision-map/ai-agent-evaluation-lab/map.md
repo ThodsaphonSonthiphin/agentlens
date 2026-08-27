@@ -31,6 +31,7 @@ A runnable, portfolio-ready AI agent evaluation lab that compares two skill vers
 <!-- decision-map:decisions:start -->
 #### first-demo — demo five synthetic cases end to end
 
+- [Benchmark contract - which five cases and assertions are frozen for the first demo?](tickets/benchmark-contract.md) — Freeze first-demo-v1 as five hash-addressed synthetic cases—2 grant, 2 packing, 1 menu—with binary assertions, partial-order tool traces, and immutable versioning.
 - [Provider boundary - what interface keeps cloud, fake, and local models interchangeable?](tickets/provider-boundary.md) — Use one immutable ModelProvider.generate contract with normalized messages, tools, outputs, usage, capabilities, and errors; keep cloud, scripted-fake, and local adapters separate.
 <!-- decision-map:decisions:end -->
 
