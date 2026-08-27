@@ -16,3 +16,7 @@ _Avoid_: Test prompt, example question
 An immutable, hash-addressed version of benchmark prompts, evidence, assertions, and tool constraints used for comparable evaluation runs.
 _Avoid_: Current test data, latest fixtures
 
+**Agent loop**:
+The bounded sequence that turns a Benchmark case into provider requests, read-only evidence operations, a validated answer, and one correlated trace.
+_Avoid_: Agent framework, autonomous workflow
+
